@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>LANDSONIX | Bookkeeping for Small Businesses</title>
+
+  <meta name="description"
+        content="LANDSONIX provides bookkeeping setup, cleanup and ongoing bookkeeping support for small businesses.">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      color: #1c2430;
+      background: #ffffff;
+      line-height: 1.6;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1150px;
+      margin: auto;
+      padding: 22px 30px;
+    }
+
+    .logo {
+      font-size: 24px;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+
+    nav a {
+      color: #1c2430;
+      text-decoration: none;
+      margin-left: 28px;
+      font-size: 15px;
+    }
+
+    nav a:hover {
+      opacity: 0.6;
+    }
+
+    .hero {
+      min-height: 78vh;
+      display: flex;
+      align-items: center;
+      max-width: 1150px;
+      margin: auto;
+      padding: 70px 30px;
+    }
+
+    .hero-content {
+      max-width: 720px;
+    }
+
+    .eyebrow {
+      font-size: 14px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      margin-bottom: 20px;
+      color: #657080;
+    }
+
+    h1 {
+      font-size: clamp(45px, 7vw, 78px);
+      line-height: 1.05;
+      margin-bottom: 25px;
+      letter-spacing: -2px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      color: #58616d;
+      max-width: 650px;
+      margin-bottom: 35px;
+    }
+
+    .button {
+      display: inline-block;
+      background: #1c2430;
+      color: white;
+      padding: 15px 26px;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .button:hover {
+      opacity: 0.85;
+    }
+
+    section {
+      padding: 90px 30px;
+    }
+
+    .section-container {
+      max-width: 1150px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 38px;
+      margin-bottom: 15px;
+    }
+
+    .section-intro {
+      max-width: 650px;
+      color: #657080;
+      margin-bottom: 45px;
+      font-size: 18px;
+    }
+
+    .services {
+      background: #f6f7f8;
+    }
+
+    .service-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 25px;
+    }
+
+    .service-card {
+      background: white;
+      padding: 35px;
+      border-radius: 8px;
+      min-height: 230px;
+    }
+
+    .service-card h3 {
+      margin-bottom: 15px;
+      font-size: 22px;
+    }
+
+    .service-card p {
+      color: #657080;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 70px;
+      align-items: center;
+    }
+
+    .about-text p {
+      margin-bottom: 18px;
+      color: #58616d;
+      font-size: 17px;
+    }
+
+    .highlight-box {
+      background: #1c2430;
+      color: white;
+      padding: 50px;
+      border-radius: 8px;
+    }
+
+    .highlight-box h3 {
+      font-size: 28px;
+      margin-bottom: 18px;
+    }
+
+    .highlight-box p {
+      color: #d4d8dd;
+    }
+
+    .contact {
+      text-align: center;
+      background: #f6f7f8;
+    }
+
+    .contact p {
+      max-width: 600px;
+      margin: 0 auto 30px;
+      color: #657080;
+      font-size: 18px;
+    }
+
+    footer {
+      padding: 35px 30px;
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+
+    @media (max-width: 800px) {
+      nav {
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      nav a {
+        margin: 0 10px;
+      }
+
+      .service-grid,
+      .about-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero {
+        min-height: 65vh;
+      }
+
+      h1 {
+        letter-spacing: -1px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <div class="logo">LANDSONIX</div>
+
+  <div>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+
+<header class="hero">
+  <div class="hero-content">
+
+    <div class="eyebrow">
+      Bookkeeping for Small Businesses
+    </div>
+
+    <h1>
+      Keep your books simple.
+      Focus on your business.
+    </h1>
+
+    <p>
+      Practical bookkeeping support for entrepreneurs and small businesses,
+      from initial setup and cleanup to ongoing bookkeeping assistance.
+    </p>
+
+    <a class="button" href="#contact">
+      Get a Free Consultation
+    </a>
+
+  </div>
+</header>
+
+
+<section class="services" id="services">
+
+  <div class="section-container">
+
+    <h2>Services</h2>
+
+    <p class="section-intro">
+      Flexible bookkeeping services designed around what your business
+      actually needs.
+    </p>
+
+    <div class="service-grid">
+
+      <div class="service-card">
+        <h3>Bookkeeping Setup</h3>
+
+        <p>
+          Starting a new business? Get your bookkeeping system organized
+          properly from the beginning, with basic training to help you
+          understand how everything works.
+        </p>
+      </div>
+
+
+      <div class="service-card">
+        <h3>Bookkeeping Cleanup</h3>
+
+        <p>
+          Behind on your books or dealing with messy records?
+          We can help organize transactions, accounts and records
+          so you can move forward with confidence.
+        </p>
+      </div>
+
+
+      <div class="service-card">
+        <h3>Ongoing Support</h3>
+
+        <p>
+          Need help after setup? Ongoing bookkeeping support is
+          available as your business grows.
+        </p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="about">
+
+  <div class="section-container about-grid">
+
+    <div class="about-text">
+
+      <h2>Practical support for growing businesses.</h2>
+
+      <p>
+        Running a business already takes enough of your time.
+        Bookkeeping should not make it harder.
+      </p>
+
+      <p>
+        LANDSONIX focuses on straightforward, practical support
+        to help small business owners stay organized and better
+        understand their financial records.
+      </p>
+
+    </div>
+
+
+    <div class="highlight-box">
+
+      <h3>Starting a new business?</h3>
+
+      <p>
+        We can help set up the bookkeeping side of your business,
+        explain the basics and provide ongoing support when needed.
+      </p>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section class="contact" id="contact">
+
+  <div class="section-container">
+
+    <h2>Let's talk about your business.</h2>
+
+    <p>
+      Not sure what bookkeeping support you need?
+      Feel free to reach out for a consultation.
+    </p>
+
+    <a class="button"
+       href="mailto:info@landsonix.com">
+      info@landsonix.com
+    </a>
+
+  </div>
+
+</section>
+
+
+<footer>
+  © 2026 LANDSONIX. All rights reserved.
+</footer>
+
+</body>
+</html>
